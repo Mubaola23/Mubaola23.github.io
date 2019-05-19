@@ -1,0 +1,148 @@
+html,body{
+	padding: 0px;
+	margin: 0px;
+}
+	.head{
+		height:50px;
+		width: 100%;
+		background-color:  #343469;
+		color: white;
+		padding-top: 10px;
+		padding-left: 2px;
+
+}
+	.right{
+		text-align: right;
+	}
+	.help{
+padding-top: 5px;
+		color: #a2a2a2;
+		font-size: 20px;
+		display: -webkit-box;
+	}
+	span{
+		font-family:  monospace;
+	}
+	.img{
+
+		padding-left: 10px;
+	}
+		.button{
+			   
+   
+    padding: 0 35px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+    border-radius: 5px;
+   width: 100px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    background-color: #ffc600;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+		.button:hover {
+	 
+    background-color: #343469;
+}
+		a{
+			text-decoration: none;	
+			color:  #343469;
+		}
+		.a:hover{
+			color: #ffc600;
+		}
+		.row {
+			display:inline-flex;
+			text-decoration: none;
+		}
+		.nav a{
+			padding-left: 10px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			padding-right: 10px;
+			font-size: 15px;
+		}
+		.active , a:hover{
+			color: #ffc600;
+		}
+		.mac{
+				height:50px;
+		width: 300px;
+		background-color:   white;
+		color:#343469;
+		padding-top: 10px;
+		
+		border-radius: 5px;
+		
+		
+		}
+		marquee{
+			margin-left: 400px;
+
+		}
+		.About{
+			width: 40%;
+			height: inherit;
+			background-color: white;
+			color : #343469;
+			border-radius: 5px;
+			padding: 20px;
+			margin: 10px;
+		}
+.about-content{
+	    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #505050;
+    margin: 0px;
+}
+footer{
+	background-color:#343469;
+	color: white;
+	padding: 50px;
+}
+li{
+	color: white;
+}
+.icon{
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+}
+ input{
+ 	background-color: #efefef;
+	width: 50%;
+	font-family: 'helvatica' cursive;
+	margin-bottom: 10px;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+	 border-radius: 5px;
+	 color: #787575;
+outline: none;
+	}
+	 .submit{
+ 	background-color: #343469;
+	width: 20%;
+	font-family: 'Helvatica' cursive;
+	margin-bottom: 10px;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+	 border-radius: 5px;
+	 color: white;
+outline: none;
+	}
+.submit:hover{
+	color:#343469;
+	background-color:  #ffc600;
+}
+footer a{
+	color: white;
+}
