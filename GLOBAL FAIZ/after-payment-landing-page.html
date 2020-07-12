@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sucessfull Payment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Payment Form Widget Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<link rel="icon" type="png" href="img/logo.png">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<h2 style="text-align: center; border:1px dashed green; padding: 10px; color: green;">Thank you, your subscription was sucessfull</h2>
+<div class="wrap">
+<table>
+	<tr>
+		<td ><b> Date:</b> <p  id="demo"></p></td>
+		<td><b> Total:</b> <p>$30</p></td><!-- Php code to get the user payment amount-->
+		<td><b> Type</b> <p>Subscription</p></td><!-- Php code to fetch th subscription detail of the user for m the database-->
+		<td><b> Payment Method:</b><p>Card or Bank Transfer</p></td>
+	</tr>
+</table></div>
+<h3>ORDER DETAILS</h3>
+<div class="wrap">
+<ul>
+	<li class="li-after"><span ><b> PRODUCT</b></span> <span class="ta-right"><b> TOTAL</b></span></li>
+	<li class="li-after"><span> Plan</span> <span> Price</span> <span class="ta-right">$30</span></li>
+	<li class="li-after"><span>Payment Method</span> <span class="ta-right ">Card or Bank Transfer</span></li>
+	<li class="li-after"><span>Total</span> <span class="ta-right">$30</span></li>
+</ul>
+	
+ </div></div>
+</body>
+</html>
+<script type="text/javascript">
+			var today = new Date();
+			document.getElementById('demo').innerHTML = today.toDateString();
+			
+				</script>
