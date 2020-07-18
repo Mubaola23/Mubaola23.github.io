@@ -1,0 +1,58 @@
+/* Big tablets to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Small tablets to big tablets from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+}
+
+/* Small Phones to small tablets from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  .display-4 {
+    font-size: 2.7rem;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+  }
+
+  .h1 {
+    font-size: 1.8rem;
+  }
+
+  .h3 {
+    font-size: 1.5rem;
+  }
+
+  .featurette-heading {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+
+  .how-it-works-card {
+    text-align: center;
+  }
+}
+
+/* Small Phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  .display-4 {
+    font-size: 1.7rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  .h1 {
+    font-size: 1.5rem;
+  }
+
+  .featurette-heading {
+    font-size: 1.5rem;
+  }
+
+  .how-it-works-card {
+    text-align: center;
+  }
+}

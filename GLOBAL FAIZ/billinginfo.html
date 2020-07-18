@@ -11,32 +11,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 	<h2 style="text-align: center;">Billing information</h2>
-
-	<form method="POST" action="verify.py">
-		<div class="wrap"> 
+<div class="wrap left-3">
+	<form method="POST" action="verify.py"> <fieldset> <legend>Kindly input your details correctly</legend>
+		 
 			<div class="wrap-1">
-	<input type="text" name="fullName" placeholder="Full Name" required=""> <br>
-	<input type="email" name="email" placeholder="Email" required=""> <br>
-
+			<input type="text" name="fullName" placeholder="Full Name" required=""> <br>
+			<input type="email" name="email" placeholder="Email" required=""> <br>
+		
+			<input type="text" name="country" placeholder="Country" required=""> <br>
+			<input type="text" name="city" placeholder="City" required=""> <br>
+			<input type="text" name="address" placeholder="Address" required=""> <br>
+			<input type="text" name="zipcode" placeholder="Zip Code" required=""> <br>
+		
+		
+		<div class="wrap">
+			<span><a href=""><input class="btn-1" type="submit" name="submit" value="Proceede"></a></span><!-- when this  button is clicked, it inserts the user's details into the database nd procedes to the payment page-->
+			<span><a href=""><input class="btn-1" type="reset" name="reset" value="Reset" style="
+    margin-left: 150px;
+"></a> </span>
+		</div>
+		
 	
-				</div>
-	<div class="wrap-1">
-	<input type="text" name="country" placeholder="Country" required=""> <br>
-	<input type="text" name="city" placeholder="City" required=""> <br>
-	<input type="text" name="address" placeholder="Address" required=""> <br>
-	<input type="text" name="zipcode" placeholder="Zip Code" required=""> <br>
-	<input class="submit" type="button" name="submit" value="Proceede"></a><!-- when this nu-->
-	<input class="reset" type="reset" name="reset" value="Reset"></div></a> 
-	</div>
-	</form>
-
-	
-	 <ul class="wrap-2" style="list-style: none;">
-	 	<li><img class="img" src="img/mscard.png" ></li>
-	 	<li><img class="img" src="img/netbanking.png"></li>
-	 	<li><img  class="img" src="img/paypal.png"></li>
-	 	<li><img  class="img" src="img/credit card.jfif "></li>
+	 <ul class="wrap-1"  style="padding-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 0px;"> <div style="display: flex; ">
+	 	<li><img class="img" src="img/mscard.png" alt="mastercard" width="60px" ></li>
+	 	<li><img class="img" src="img/netbanking.png"  alt="netbanking" width="60px" ></li>
+	 	<li><img  class="img" src="img/paypal.png"  alt="paypal" width="60px" ></li>
+	 	<li><img  class="img" src="img/credit card.jfif "  alt="credit card" width="60px" ></li>
+	 	</div>
 	 </ul>
+
+	</fieldset></form></div></div>
 	
 
 </body>
