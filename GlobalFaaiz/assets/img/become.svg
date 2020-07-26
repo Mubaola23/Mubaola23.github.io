@@ -1,0 +1,11 @@
+<svg id="become" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_7" data-name="Group 7">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="24" height="24" fill="none"/>
+  </g>
+  <g id="Group_9" data-name="Group 9">
+    <g id="Group_8" data-name="Group 8">
+      <path id="Path_7" data-name="Path 7" d="M17,11a6.638,6.638,0,0,1,1,.09V6.27L10.5,3,3,6.27v4.91A10.213,10.213,0,0,0,10.5,21a9.166,9.166,0,0,0,1.6-.55A5.99,5.99,0,0,1,17,11Z" fill="#fd6a02"/>
+      <path id="Path_8" data-name="Path 8" d="M17,13a4,4,0,1,0,4,4A4,4,0,0,0,17,13Zm0,1.38a1.12,1.12,0,1,1-1.12,1.12A1.125,1.125,0,0,1,17,14.38Zm0,5.37a2.725,2.725,0,0,1-2.24-1.17c.05-.72,1.51-1.08,2.24-1.08s2.19.36,2.24,1.08A2.725,2.725,0,0,1,17,19.75Z" fill="#fd6a02"/>
+    </g>
+  </g>
+</svg>

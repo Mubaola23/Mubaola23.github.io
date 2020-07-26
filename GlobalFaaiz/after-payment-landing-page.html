@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sucessfull Payment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Payment Form Widget Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<link rel="icon" type="png" href="img/logo.png">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+
+<body>
+<div class="billing-wrap">
+<h2 style="text-align: center; border:1px dashed green; padding: 10px; color: green;">Thank you, your subscription was sucessfull</h2>
+<div class="wrap">
+<table>
+	<tr>
+		<td ><b> Date:</b> <p  id="demo"></p></td>
+		<td><b> Total:</b> <p>$30</p></td><!-- Php code to get the user payment amount-->
+		<td><b> Type</b> <p>Subscription</p></td><!-- Php code to fetch th subscription detail of the user for m the database-->
+		<td><b> Payment Method:</b><p>Card or Bank Transfer</p></td>
+	</tr>
+</table></div>
+<h3>ORDER DETAILS</h3>
+<div class="order-wrap">
+
+       
+       <table class="bill-table">
+	<thead>
+		<tr>
+			<th>Product</th>
+			<th>Subtotal</th>
+		</tr>
+	</thead>
+	<tbody>
+			<tr>
+				<td>Package	</td>
+				<td><span ><span>Basic</span></td>
+					
+			</tr>
+		</tbody>
+	
+
+		<tr>
+			<td>Price</td>
+			<td><span ><span >$</span>0.99</span></td>
+		</tr>
+		
+		<tr>
+			<th>Total</th>
+			<td><strong><span ><span >$</span>0.99</span></strong> </td>
+		</tr>
+
+		
+	
+</table>
+</div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+			var today = new Date();
+			document.getElementById('demo').innerHTML = today.toDateString();
+			
+				</script>

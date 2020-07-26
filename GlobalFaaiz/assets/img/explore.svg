@@ -1,0 +1,4 @@
+<svg id="explore" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Path_9" data-name="Path 9" d="M21,3H3A2.006,2.006,0,0,0,1,5V8H3V5H21V19H14v2h7a2.006,2.006,0,0,0,2-2V5A2.006,2.006,0,0,0,21,3ZM1,18v3H4A3,3,0,0,0,1,18Zm0-4v2a5,5,0,0,1,5,5H8A7,7,0,0,0,1,14Zm0-4v2a9,9,0,0,1,9,9h2A11,11,0,0,0,1,10Zm10,1.09v2L14.5,15,18,13.09v-2L14.5,13ZM14.5,6,9,9l5.5,3L20,9Z" fill="#fd6a02"/>
+  <path id="Path_10" data-name="Path 10" d="M0,0H24V24H0Z" fill="none"/>
+</svg>
