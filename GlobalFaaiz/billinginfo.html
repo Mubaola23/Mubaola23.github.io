@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GlobalFaaiz</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<link rel="icon" type="png" href="assets/img/logo.png">
+<link rel="stylesheet" type="text/css" href="assets/css/subscription.css">
+
+<link rel="stylesheet" type="text/css" href="assets/css/queries.css">
+
+     <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"/>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  
+</head>
+
+<body>
+  <div style="overflow-x: hidden; ">
+      <header id="home">
+        <div class="container h-100">
+         <nav class="navbar navbar-expand-md navbar-dark py-3">
+            <a class="navbar-brand mr-3" href="index.html">
+              <img src="assets/img/logo.png" width="60" height="60" alt="Brand Logo">
+            </a>
+            
+            
+            
+          </nav>
+          </div>
+     
+    
+      </header>
+        </div>
+    <!--Background url-->
+	
+		<div  class=" billing-bgurl">
+			<div style="width :inherit;">
+            <div class="getting-close-top" ></div>
+			<h1> Getting closer...</h1>
+            
+</div>
+</div>
+<!--subscription body-->
+<div class="billing-wrap">
+    <br>
+	  <div class="getting-close-line" ></div>
+      <h3>Billing details</h1> <br>
+
+<form method="POST" name="paymentForm" >
+        <ul class="bill-inner-wrap">
+	       
+	        <input type="text" name="first-name"  class="input" placeholder="First name *" required="">
+
+	        <input type="text" name="last-name"  class="input" placeholder="Last name *" required="">
+	    </ul>
+
+        <ul class="bill-inner-wrap">
+         	<input type="text" name="Country" class="input"  placeholder="Country / Region *" required="">
+         </ul>
+
+          <ul class="bill-inner-wrap">
+         	<input type="text" name="town" class="input"  placeholder="Town / City *" required="">
+         </ul>
+
+        <ul class="bill-inner-wrap">
+         	<input type="text" name="address" class="input"  placeholder="Address *" required="">
+         </ul>
+
+          <ul class="bill-inner-wrap">
+         	<input type="text" name="zipcode" class="input"  placeholder="Zip code *" required="">
+         </ul>
+
+          <ul class="bill-inner-wrap">
+         	<input type="tel" name="phone" class="input"  placeholder="Phone number *" required="">
+         </ul>
+
+          <ul class="bill-inner-wrap">
+         	<input type="email" name="email" class="input"  placeholder="Address *" required="">
+         </ul>
+          <button class="btn-1 type="submit" onclick="payWithPaystack()" name ="pay" ">Proceede</button><br><hr><br>
+</form>
+            <h3>Your order</h1> <br>
+            <div class="order-wrap">
+
+       
+       <table class="bill-table">
+	<thead>
+		<tr>
+			<th>Product</th>
+			<th>Subtotal</th>
+		</tr>
+	</thead>
+	<tbody>
+			<tr>
+				<td>Package	</td>
+				<td><span ><span>Basic</span></td>
+					
+			</tr>
+		</tbody>
+	
+
+		<tr>
+			<td>Price</td>
+			<td><span ><span >$</span>0.99</span></td>
+		</tr>
+		
+		<tr>
+			<th>Total</th>
+			<td><strong><span ><span >$</span>0.99</span></strong> </td>
+		</tr>
+
+		
+	
+</table>
+</div>
+
+</div>
+
+<!--footer-->
+<div id="footer">
+        <div class="container mt-5">
+          <div class="row text-center text-xs-center text-sm-left text-md-left">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <ul class="list-unstyled quick-links">
+                <li>
+                  <a class="mr-3" href="#">
+                    <img src="assets/img/logo.png" width="70" height="70" alt="Brand Logo">
+                  </a>
+                </li>
+                <h5>GlobalFaaiz</h5>
+                <li>
+                  <a href="#home"><i class="fa fa-angle-double-right"></i>Home</a>
+                </li>
+                <li>
+                  <a href="#about"><i class="fa fa-angle-double-right"></i>About</a>
+                </li>
+                <li>
+                  <a href="#home"><i class="fa fa-angle-double-right"></i>Get Started</a>
+                </li>
+                <li>
+                  <a href="faq.html"><i class="fa fa-angle-double-right"></i>FAQ</a>
+                </li>
+                <li>
+                  <a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Privacy Policy</a>
+                </li>
+                 <li>
+                  <a href="shop.html"><i class="fa fa-angle-double-right"></i>Shop</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <h5>Reader</h5>
+              <ul class="list-unstyled quick-links">
+                <li>
+                  <a href="#"><i class="fa fa-angle-double-right"></i>Login</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-angle-double-right"></i>Signup</a>
+                </li>
+              </ul>
+              <h5>Author</h5>
+              <ul class="list-unstyled quick-links">
+                <li>
+                  <a href="#"><i class="fa fa-angle-double-right"></i>Become an Author</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-angle-double-right"></i>Login</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <h5>Stay in the know!</h5>
+              <p>Send me new stories, offers, <br>updates and freebies</p>
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label text-white" for="exampleCheck1">I reviewed &amp; agree to the Privacy Policy.</label>
+                </div>
+                <button type="submit" class="primary_button border-0 px-md-3  btn-1">
+                  Subscribe
+                </button>
+                <br>
+              </form>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+              <ul class="list-unstyled list-inline social text-center">
+                <li class="list-inline-item">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+              <p class="h6">
+                &copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">GlobalFaaiz</a>
+              </p>
+            </div>
+            <hr>
+          </div>
+        </div>
+      </div>
+<?php
+                      if(isset($_POST['pay'])){
+                        $email = $_POST['email'];
+                        $amount = $_POST['amount'];
+                        echo "yes";
+                        }
+?>
+
+<script type="text/javascript">
+  
+var paymentForm = document.getElementById('paymentForm');
+paymentForm.addEventListener('submit', payWithPaystack, false);
+function payWithPaystack() {
+
+    var handler = PaystackPop.setup({ 
+        key: 'pk_test_fdd0902f25bc381a2dd87813f2dfb69e0dcb783d', //put your public key here
+        email: 'olamide@gmail.com', //put your customer's email here
+        amount: <?php echo 400*100; ?>, //amount the customer is supposed to pay
+      
+        callback: function (response) {
+            //after the transaction have been completed
+            //make post call  to the server with to verify payment 
+            //using transaction reference as post data
+            $.post("verify.php", {reference:response.reference}, function(status){
+               
+
+
+                    
+            });
+        },
+        onClose: function () {
+            //when the user close the payment modal
+            alert('Transaction cancelled');
+        }
+    });
+    handler.openIframe(); //open the paystack's payment modal
+}
+
+</script>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="https://js.paystack.co/v1/inline.js"></script>
+</html>
