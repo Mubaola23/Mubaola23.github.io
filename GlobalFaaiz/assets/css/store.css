@@ -75,6 +75,9 @@
 .option{
     border-top: 1px solid black;
 }
+.option:hover{
+    background-color: red;
+}
 .size{
     padding:10px;
     font-size: 16px;

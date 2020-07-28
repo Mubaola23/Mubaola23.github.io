@@ -8,7 +8,7 @@
 
 <link rel="icon" type="png" href="assets/img/logo.png">
 <link rel="stylesheet" type="text/css" href="assets/css/subscription.css">
-
+<link rel="stylesheet" type="text/css" href="assets/css/store.css">
 <link rel="stylesheet" type="text/css" href="assets/css/queries.css">
 
      <link
@@ -25,30 +25,80 @@
 
 <body>
   <div style="overflow-x: hidden; ">
-      <header id="home">
-        <div class="container h-100">
-         <nav class="navbar navbar-expand-md navbar-dark py-3">
+     <nav class="navbar navbar-expand-md  py-3 container navbar-light">
             <a class="navbar-brand mr-3" href="index.html">
-              <img src="assets/img/logo.png" width="60" height="60" alt="Brand Logo">
+              <img
+                src="assets/img/logo.png"
+                width="60"
+                height="60"
+                alt="Brand Logo"
+              />
             </a>
-            
-            
-            
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+              aria-controls="navbarCollapse"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link a font-weight-bold" href="#"
+                    >Browse <i class="fa fa-caret-down"></i
+                  ></a>
+                </li>
+              </ul>
+
+              <form class="form-inline mt-2 mt-md-0 has-search">
+                <span class="fa fa-search form-control-feedback"></span>
+                <input
+                  class="form-control mr-sm-2"
+                  type="text"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </form>
+
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link font-weight-bold" href="#">Signup</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-weight-bold" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-weight-bold" href="store.html">Store</a>
+                </li>
+              </ul>
+            </div>
           </nav>
-          </div>
-     
-    
-      </header>
+      
         </div>
     <!--Background url-->
+    
 	
-		<div  class=" billing-bgurl">
-			<div style="width :inherit;">
-            <div class="getting-close-top" ></div>
-			<h1> Getting closer...</h1>
-            
-</div>
-</div>
+		  <header class="billing-bgurl" id="home">
+        <div class="container h-100">
+         <br><br><br><br>
+          <div class="row h-100 align-items-center">
+            <div class="col-12">
+              <img src="assets/img/store-img/pixel_white.png" alt=" " width="119" height="5">
+              <h1 class="display-4 secondary font-weight-bold mb-4" style="margin-left: 0;">
+               Getting Started...
+              </h1>
+             
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <br>
+      <br>
 <!--subscription body-->
 <div class="billing-wrap">
     <br>

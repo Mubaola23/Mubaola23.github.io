@@ -8,6 +8,7 @@
     />
 
     <title>GlobalFaaiz</title>
+    <link rel="icon" type="png" href="assets/img/logo.png">
 
     <!-- CSS only -->
     <link
@@ -24,7 +25,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/queries.css" />
-    <link rel="stylesheet" href="assets/css/shop.css" />
+    <link rel="stylesheet" href="assets/css/store.css" />
   </head>
 <style type="text/css">
   .header_image {
@@ -38,7 +39,7 @@
 </style>
   <body>
     <div style="overflow-x: hidden;" >
-       <nav class="navbar navbar-expand-md  py-3 container">
+       <nav class="navbar navbar-expand-md  py-3 container navbar-light">
             <a class="navbar-brand mr-3" href="index.html">
               <img
                 src="assets/img/logo.png"
@@ -85,105 +86,75 @@
                   <a class="nav-link font-weight-bold" href="#">Login</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link font-weight-bold" href="shop.html">Store</a>
+                  <a class="nav-link font-weight-bold" href="store.html">Store</a>
                 </li>
               </ul>
-            </div>
-          </nav>
+            
+          </nav></div>
       <header class="header_image" id="home">
         <div class="container h-100">
          <br><br><br><br>
           <div class="row h-100 align-items-center">
             <div class="col-12">
-              <img src="assets/img/shop-img/pixel_white.png" alt=" " width="119" height="5">
+              <img src="assets/img/store-img/pixel_white.png" alt=" " width="119" height="5">
               <h1 class="display-4 secondary font-weight-bold mb-4">
-               The Store
+              So Close...
               </h1>
              
             </div>
           </div>
         </div>
       </header>
-
-      <br>
-      <br>
-
+      <br><br>
 
       <!-- store body-->
-      <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-              <a href="" class="store-item" style="background-image: url(&quot;assets/img/shop-img/1.jpg&quot;); ">
-              <div class="overlay"></div>
-                     <div class="title center">T-Shirt
-                     <div class="price"><span ><span class="Symbol">$</span>15</span>
-                     </div>
-              </div>
-              </a>
-            </div>
-
-
-            <div class="col-lg-4">
-              <a href="" class="store-item" style="background-image: url(&quot;assets/img/shop-img/2.jpg&quot;);">
-                 <div class="overlay"></div>
-                     <div class="title center">T-Shirt
-                     <div class="price">
-                        <span class=" amount"><span class="Symbol">$</span>15</span>
-                     </div>
-                     </div>
-              </a>
-            </div>
-
-             <div class="col-lg-4">
-              <a href="" class="store-item" style="background-image: url(&quot;assets/img/shop-img/3.jpg&quot;);">
-                 <div class="overlay"></div>
-                     <div class="title center">T-Shirt
-                     <div class="price">
-                        <span class=" amount"><span class="Symbol">$</span>15</span>
-                     </div>
-              </div>
-              </a>
-            </div>
-
-
-             <div class="col-lg-4">
-              <a href="" class="store-item" style="background-image: url(&quot;assets/img/shop-img/4.jpg&quot;);">
-                 <div class="overlay"></div>
-                     <div class="title center">T-Shirt
-                     <div class="price">
-                        <span class=" amount"><span class="Symbol">$</span>15</span>
-                     </div>
-             </div>
-              </a>
-            </div>
-
-
-
-
-             <div class="col-lg-4">
-              <a href="" class="store-item" style="background-image: url(&quot;assets/img/shop-img/5.jpg&quot;);">
-                 <div class="overlay"></div>
-                     <div class="title center">T-Shirt
-                     <div class="price">
-                        <span class=" amount"><span class="Symbol">$</span>15</span>
-                     </div>
-               </div>
-              </a>
-            </div>
-
-              <div class="col-lg-4">
-              <a href="" class="store-item" style="background-image: url(&quot;assets/img/shop-img/6.jpg&quot;);">
-                 <div class="overlay"></div>
-                     <div class="title center">T-Shirt
-                     <div class="price">
-                        <span class=" amount"><span class="Symbol">$</span>15</span>
-                     </div>
-              </div>
-              </a>
-            </div>
-            </div>
+<div class="container">
+  <div class="row">
+    <div class=" col-lg-6">
+      <br>
+      <h1  class="title"> T-Shirt</h1><p class="primary"><span><span>$</span >12</span></p>
+      <div>
+        <br>
+        <p>Our popular San Diego Surf Spots T-shirt pays homage to a few of our most beloved San Diego breaks, including Swamis, OB, Windansea, Sunset Cliffs, Cardiff, and our crew’s home breaks at Blacks and Del Mar 15th. For the lover of San Diego sun and surf, this is a shirt worth paddling out for. Custom illustrated, 1-color screen printed on American Apparel goodness. It’s the perfect gift for any San Diego surfer.</p>
       </div>
-           
+      <br>
+      <hr class="primary">
+      <br>
+      <form>
+        <label for="size">Size</label> <br>
+        <select name="size" class="quantity">
+          <option class="option">Medium</option>
+          <option class="option">Large</option>
+          <option class="option">X-Large</option>
+        </select>
+      <br>
+        <div>
+          <label  for="quantity">Quantity</label>
+          <br>
+          <input type="number" class="quantity" name="quantity" min="1">
+        </div>
+        <br>
+      <br>
+        <a href="subscription.html"  type="submit" class="btn primary_button border-0 px-md-3 px-lg-5 px-sm-2 py-2">
+               Add to cart
+                </a>
+      </form>
+    </div>
+      <div class="col-lg-6">
+       
+          <div class="image" style="margin-bottom: 30px;">
+            <img src="assets/img/store-img/4.jpg" width="100%">
+          </div>
+          <div class="image" style="margin-bottom: 30px;">
+            <img  src="assets/img/store-img/4.jpg" width="100%">
+          </div>
+        
+      </div>
+    
+  </div>
+</div>
+    
+    <br><br>
 
 
  <div id="footer">
@@ -228,7 +199,7 @@
                   >
                 </li>
                  <li>
-                  <a href="shop.html"
+                  <a href="store.html"
                     ><i class="fa fa-angle-double-right"></i>Store</a
                   >
                 </li>

@@ -263,7 +263,6 @@ height: 8.66667px;
     color: #ffff;
     padding: 10px;
     width: 140px;
-    font-variant: small-caps;
     background-color: #fd6a02;
     position: absolute;
     border-radius: 5px;
@@ -281,7 +280,7 @@ transition: ease-in-out 0.5s;
     color: #ffffff;
     padding: 10px;
     width: 100px;
-    font-variant: small-caps;
+    
     background-color: transparent;
     position: absolute;
     border-radius: 5px;
@@ -349,7 +348,7 @@ td{padding: 30px;}
     display: flex;
   }
 .getting-closer {
-       font-family: brown;
+       
     font-weight: 700;
     font-size: 40px;
     margin: 0 0 0 10%;
@@ -386,8 +385,6 @@ width: 95%;
 h3{
 
 margin-bottom: 10px;
-font-family: 'Chronicle Display A', 'Chronicle Display B';
-font-style: normal;
 font-size: 28px;
 line-height: 38px;
 margin-top: 0;
@@ -399,10 +396,9 @@ h1{
 box-sizing: border-box;
   margin: 0px 0px 0px 5%;
     margin-bottom: 10px;
-    font-family: auto;
     line-height: 77px;
     font-weight: 700;
-    max-width: 40%;
+    max-width: 42%;
     font-size: 69.5px;
     color: #ffff;
 }
