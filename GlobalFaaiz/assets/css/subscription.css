@@ -437,11 +437,7 @@ left: 0px;
 
 }
 
-th{text-align: left;}
-.bill-table{
-  width: 100%;
-}
-tr{border-bottom :1px solid #cac0c0}
+
 
 /**footer**/
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");

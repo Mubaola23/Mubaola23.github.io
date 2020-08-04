@@ -14,7 +14,11 @@
 .store-item a {
 
 }
-
+.bill-table{
+    width :100%;
+}
+td {padding: 30px;}
+tr{border-top: 1px solid #cece;}
 .store-item:hover,
 .store-item:focus {
     text-decoration: none;
